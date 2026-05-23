@@ -47,12 +47,12 @@ code {
   top: 0; left: 0; right: 0;
   z-index: 1000;
   padding: 0 32px;
-  transition: background 0.3s, box-shadow 0.3s;
+  background: #ffffff;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.08), 0 2px 16px rgba(0,0,0,0.05);
+  transition: box-shadow 0.3s;
 }
 #navbar.scrolled {
-  background: rgba(248,250,252,0.94);
-  backdrop-filter: blur(12px);
-  box-shadow: 0 1px 0 rgba(0,0,0,0.08), 0 2px 16px rgba(0,0,0,0.05);
+  box-shadow: 0 2px 24px rgba(0,0,0,0.1);
 }
 .nav-inner {
   max-width: 1200px;
@@ -65,7 +65,7 @@ code {
 .nav-logo {
   font-weight: 700;
   font-size: 1.1rem;
-  background: linear-gradient(135deg, #4f46e5, #0891b2);
+  background: linear-gradient(135deg, var(--accent), var(--accent2));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -79,7 +79,7 @@ code {
 .nav-links a {
   font-size: 0.9rem;
   font-weight: 500;
-  color: var(--text-muted);
+  color: #475569;
   transition: color 0.2s;
 }
 .nav-links a:hover { color: var(--accent); }
@@ -108,7 +108,7 @@ code {
   display: block;
   width: 24px;
   height: 2px;
-  background: var(--text-main);
+  background: #1e293b;
   border-radius: 2px;
   transition: 0.3s;
 }
@@ -728,11 +728,11 @@ footer {
     flex-direction: column;
     position: fixed;
     top: 68px; left: 0; right: 0;
-    background: rgba(248,250,252,0.97);
+    background: #ffffff;
     padding: 24px 32px;
     gap: 20px;
     border-bottom: 1px solid #e2e8f0;
-    box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.1);
   }
 }
 @media (max-width: 560px) {
