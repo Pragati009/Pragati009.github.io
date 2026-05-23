@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pragati Acharya — Full Stack Software Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <span class="nav-logo">Pragati Acharya</span>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact" class="nav-cta">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-content">
+      <div class="hero-text">
+        <p class="hero-greeting">Hi, I'm</p>
+        <h1 class="hero-name">Pragati Acharya</h1>
+        <h2 class="hero-title">Full Stack Software Engineer</h2>
+        <p class="hero-subtitle">Building scalable web apps with Angular, Java Spring Boot &amp; Python FastAPI. GenAI enthusiast — RAG pipelines, LLM fine-tuning, and production observability.</p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">View My Work</a>
+          <a href="#contact" class="btn btn-outline">Get in Touch</a>
+        </div>
+        <div class="hero-badges">
+          <span class="badge">Angular</span>
+          <span class="badge">Spring Boot</span>
+          <span class="badge">FastAPI</span>
+          <span class="badge">AWS</span>
+          <span class="badge">GenAI</span>
+        </div>
+      </div>
+      <div class="hero-photo-wrap">
+        <div class="hero-photo-ring">
+          <img src="profile.jpg" alt="Pragati Acharya" class="hero-photo" />
+        </div>
+        <div class="hero-photo-deco"></div>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <span>Scroll</span>
+      <div class="scroll-arrow"></div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            I'm a <strong>Full Stack Software Engineer</strong> with 3+ years of experience building modern, scalable applications. I specialize in <strong>Angular/TypeScript</strong> on the frontend and <strong>Java/Spring Boot</strong> and <strong>Python/FastAPI</strong> on the backend.
+          </p>
+          <p>
+            I'm deeply invested in cloud-native development on AWS with Docker and Kubernetes, and I have hands-on production experience with <strong>Generative AI</strong> — RAG pipelines, LLM fine-tuning with LoRA, and prompt-engineered FastAPI services with real observability stacks.
+          </p>
+          <p>
+            I thrive in Agile, cross-functional teams and take strong technical ownership from architecture through deployment. I believe the best software is built when you understand both the frontend and backend deeply enough to make decisions that optimize the whole system.
+          </p>
+        </div>
+        <div class="about-stats">
+          <div class="stat-card">
+            <span class="stat-number">3+</span>
+            <span class="stat-label">Years Experience</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number">3</span>
+            <span class="stat-label">Major Projects</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number">4.0</span>
+            <span class="stat-label">Master's GPA</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number">9+</span>
+            <span class="stat-label">Tech Domains</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="container">
+      <h2 class="section-title">Technical Skills</h2>
+      <div class="skills-grid">
+
+        <div class="skill-card">
+          <div class="skill-card-icon">&#60;/&#62;</div>
+          <h3>Languages</h3>
+          <div class="tags">
+            <span class="tag">TypeScript</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">Java</span>
+            <span class="tag">Python</span>
+            <span class="tag">C# (.NET)</span>
+            <span class="tag">SQL</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-card-icon">&#9716;</div>
+          <h3>Frontend</h3>
+          <div class="tags">
+            <span class="tag">Angular</span>
+            <span class="tag">RxJS</span>
+            <span class="tag">React</span>
+            <span class="tag">HTML5</span>
+            <span class="tag">CSS3</span>
+            <span class="tag">Bootstrap</span>
+            <span class="tag">jQuery</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-card-icon">&#9881;</div>
+          <h3>Backend &amp; APIs</h3>
+          <div class="tags">
+            <span class="tag">Spring Boot</span>
+            <span class="tag">Spring MVC</span>
+            <span class="tag">FastAPI</span>
+            <span class="tag">ASP.NET Core</span>
+            <span class="tag">Flask</span>
+            <span class="tag">JAX-RS</span>
+            <span class="tag">REST</span>
+            <span class="tag">GraphQL</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-card-icon">&#9670;</div>
+          <h3>C# &amp; .NET</h3>
+          <div class="tags">
+            <span class="tag">C#</span>
+            <span class="tag">ASP.NET Core</span>
+            <span class="tag">.NET 6 / 8</span>
+            <span class="tag">Entity Framework Core</span>
+            <span class="tag">LINQ</span>
+            <span class="tag">MS Test</span>
+            <span class="tag">xUnit</span>
+            <span class="tag">NuGet</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-card-icon">&#128190;</div>
+          <h3>Databases</h3>
+          <div class="tags">
+            <span class="tag">PostgreSQL</span>
+            <span class="tag">MySQL</span>
+            <span class="tag">MS SQL Server</span>
+            <span class="tag">Oracle</span>
+            <span class="tag">SQLite</span>
+            <span class="tag">Hibernate / JPA</span>
+          </div>
+        </div>
+
+        <div class="skill-card highlight-card">
+          <div class="skill-card-icon">&#129302;</div>
+          <h3>Generative AI</h3>
+          <div class="tags">
+            <span class="tag">RAG Pipelines</span>
+            <span class="tag">LLM Fine-Tuning</span>
+            <span class="tag">LoRA / PEFT</span>
+            <span class="tag">Prompt Engineering</span>
+            <span class="tag">Ollama</span>
+            <span class="tag">HuggingFace</span>
+            <span class="tag">FAISS</span>
+            <span class="tag">Vector Search</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-card-icon">&#9729;</div>
+          <h3>Cloud &amp; DevOps</h3>
+          <div class="tags">
+            <span class="tag">AWS (EC2, S3, Lambda, RDS)</span>
+            <span class="tag">Docker</span>
+            <span class="tag">Kubernetes</span>
+            <span class="tag">Azure DevOps CI/CD</span>
+            <span class="tag">Git / GitHub</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-card-icon">&#128200;</div>
+          <h3>Observability</h3>
+          <div class="tags">
+            <span class="tag">Prometheus</span>
+            <span class="tag">Grafana</span>
+            <span class="tag">Custom Metrics</span>
+            <span class="tag">Structured Logging</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-card-icon">&#9989;</div>
+          <h3>Testing</h3>
+          <div class="tags">
+            <span class="tag">JUnit 5</span>
+            <span class="tag">Mockito</span>
+            <span class="tag">TestNG</span>
+            <span class="tag">Selenium WebDriver</span>
+            <span class="tag">Cucumber (BDD)</span>
+            <span class="tag">xUnit</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience">
+    <div class="container">
+      <h2 class="section-title">Professional Experience</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <h3 class="job-title">Full Stack Software Engineer</h3>
+                <p class="job-company">Everest Kart &mdash; Kathmandu, Nepal</p>
+              </div>
+              <span class="job-date">Feb 2019 &ndash; Apr 2022</span>
+            </div>
+            <ul class="job-bullets">
+              <li>Built and maintained full-stack features across an Angular/TypeScript frontend and Java Spring Boot backend — owning the feature from API design through UI integration and deployment.</li>
+              <li>Developed RESTful APIs using Spring Boot and JAX-RS, handling product listings, order management, and user sessions for a high-traffic e-commerce platform.</li>
+              <li>Worked with MySQL and Oracle databases, writing optimized queries and analyzing query plans to resolve slow production endpoints.</li>
+              <li>Integrated CI/CD pipelines via Azure DevOps — automating builds, tests, and deployments across dev, staging, and production, reducing manual release effort.</li>
+              <li>Wrote unit and integration tests with JUnit and Mockito, covering real failure paths so regressions were caught in CI rather than production.</li>
+              <li>Collaborated in Agile sprints with BAs, QA, and DevOps — translating requirements into technical designs and delivering end-to-end features on schedule.</li>
+              <li>Participated in code reviews and refactored legacy components to improve modularity and testability.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="container">
+      <h2 class="section-title">Projects</h2>
+      <div class="projects-grid">
+
+        <div class="project-card featured">
+          <div class="project-label">Featured</div>
+          <h3 class="project-title">Local AI Chat System</h3>
+          <p class="project-subtitle">RAG Pipeline + LLM Fine-Tuning + Full Observability Stack</p>
+          <p class="project-desc">
+            End-to-end AI application: Angular frontend, FastAPI backend for async LLM orchestration, and a RAG pipeline (PDF ingestion → sentence-transformer embeddings → FAISS vector index → local LLM via Ollama). Fine-tuned GPT-2 on a custom 181-example instruction dataset using LoRA/PEFT (only 0.24% of parameters). Full Prometheus + Grafana observability — available after a single <code>docker compose up</code>.
+          </p>
+          <div class="project-highlights">
+            <div class="highlight">
+              <span class="highlight-num">0.24%</span>
+              <span class="highlight-label">trainable params (LoRA)</span>
+            </div>
+            <div class="highlight">
+              <span class="highlight-num">181</span>
+              <span class="highlight-label">fine-tuning examples</span>
+            </div>
+            <div class="highlight">
+              <span class="highlight-num">1 cmd</span>
+              <span class="highlight-label">full stack deploy</span>
+            </div>
+          </div>
+          <div class="tags project-tags">
+            <span class="tag">Python</span>
+            <span class="tag">FastAPI</span>
+            <span class="tag">Angular</span>
+            <span class="tag">Docker Compose</span>
+            <span class="tag">Prometheus</span>
+            <span class="tag">Grafana</span>
+            <span class="tag">FAISS</span>
+            <span class="tag">Ollama</span>
+            <span class="tag">LoRA/PEFT</span>
+            <span class="tag">HuggingFace</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <h3 class="project-title">Employee Management System</h3>
+          <p class="project-subtitle">Spring Boot REST API with Dynamic Querying</p>
+          <p class="project-desc">
+            Production-grade REST API with full CRUD, proper HTTP semantics, and a global exception handler via <code>@ControllerAdvice</code>. Features dynamic filtering using JPA Specifications, pagination/sorting via Spring Pageable, and Spring Profiles for clean dev/prod environment separation (H2 in-memory vs. PostgreSQL).
+          </p>
+          <div class="tags project-tags">
+            <span class="tag">Java</span>
+            <span class="tag">Spring Boot 3.x</span>
+            <span class="tag">Spring Data JPA</span>
+            <span class="tag">PostgreSQL</span>
+            <span class="tag">JUnit 5</span>
+            <span class="tag">Mockito</span>
+            <span class="tag">Docker</span>
+            <span class="tag">Maven</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <h3 class="project-title">Spam Email Classifier</h3>
+          <p class="project-subtitle">ML Data Pipeline with REST Deployment</p>
+          <p class="project-desc">
+            End-to-end ML pipeline: data ingestion → preprocessing → TF-IDF feature extraction → model training. Evaluated Naive Bayes, Logistic Regression, and Random Forest on precision and recall. Deployed the best-performing model as a Flask REST API, covering the full ML lifecycle from raw data to production endpoint.
+          </p>
+          <div class="tags project-tags">
+            <span class="tag">Python</span>
+            <span class="tag">Scikit-learn</span>
+            <span class="tag">Pandas</span>
+            <span class="tag">NumPy</span>
+            <span class="tag">Flask</span>
+            <span class="tag">TF-IDF</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education">
+    <div class="container">
+      <h2 class="section-title">Education</h2>
+      <div class="edu-grid">
+
+        <div class="edu-card">
+          <div class="edu-icon">&#127891;</div>
+          <div class="edu-body">
+            <h3>Master of Science in Information Technology (MSIT)</h3>
+            <p class="edu-school">Washington University of Science and Technology</p>
+            <p class="edu-location">Alexandria, VA</p>
+            <div class="edu-meta">
+              <span class="edu-date">July 2024</span>
+              <span class="edu-gpa">GPA: 4.0 / 4.0</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="edu-card">
+          <div class="edu-icon">&#127979;</div>
+          <div class="edu-body">
+            <h3>Bachelor of Engineering</h3>
+            <p class="edu-school">Tribhuvan University, Kathmandu Engineering College</p>
+            <p class="edu-location">Kathmandu, Nepal</p>
+            <div class="edu-meta">
+              <span class="edu-date">December 2022</span>
+              <span class="edu-gpa">GPA: 3.42</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="container">
+      <h2 class="section-title light">Let's Connect</h2>
+      <p class="contact-sub">I'm open to new opportunities, collaborations, and conversations about interesting engineering challenges.</p>
+      <div class="contact-cards">
+        <a href="mailto:pragatiacharya77@gmail.com" class="contact-card">
+          <div class="contact-icon">&#9993;</div>
+          <span class="contact-label">Email</span>
+          <span class="contact-value">pragatiacharya77@gmail.com</span>
+        </a>
+        <a href="https://github.com/Pragati009" target="_blank" rel="noopener" class="contact-card">
+          <div class="contact-icon">&#128279;</div>
+          <span class="contact-label">GitHub</span>
+          <span class="contact-value">github.com/Pragati009</span>
+        </a>
+        <div class="contact-card no-link">
+          <div class="contact-icon">&#128205;</div>
+          <span class="contact-label">Location</span>
+          <span class="contact-value">Manassas, VA</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>&copy; 2026 Pragati Acharya &mdash; Built with care.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

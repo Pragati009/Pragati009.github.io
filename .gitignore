@@ -1,0 +1,25 @@
+# Resume source document (contains personal contact info)
+*.docx
+*.doc
+
+# Claude Code files
+.claude/
+memory/
+CLAUDE.md
+.claudeignore
+
+# Environment / secrets
+.env
+.env.*
+*.pem
+*.key
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
+*.swp
